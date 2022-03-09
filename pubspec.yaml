@@ -1,0 +1,39 @@
+name: wallpaper_app_with_flutter
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  http: ^0.13.4
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+  cached_network_image: ^3.2.0
+  flutter_cache_manager: ^3.3.0
+  provider: ^6.0.2
+  wallpaper: ^1.1.0
+  flutter_speed_dial: ^5.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/

@@ -1,0 +1,6 @@
+{
+  "appTitle": "wallpaper_app_with_flutter",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
